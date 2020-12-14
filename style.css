@@ -1,34 +1,39 @@
 body {
-    background-image: linear-gradient(95deg, rgb(153, 213, 239), rgb(254, 242, 122), rgb(238, 172, 174));
-    background-size: 100vw;
-    font-size: 1.4vw;
-    color: black;
-    text-align: center;
+  background-image: linear-gradient(
+    95deg, 
+    rgb(153, 213, 239), 
+    rgb(254, 242, 122), 
+    rgb(238, 172, 174)
+  );
+  background-size: 100vw;
+  color: black;
+  font-size: 1.4vw;
+  text-align: center;
 }
 
 .ball {
-    padding : 6vw;
-    border-radius: 50%;
-    display: inline-block;
-    border: 0.1vw solid black;
-    margin-left: 1.2vw;;
+  border: 0.1vw solid black;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 1.2vw;
+  padding: 6vw;
 }
 
 .scoreboard {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .scoreValue {
-    margin-right: 0.6vw;
+  margin-right: 0.6vw;
 }
 
 .reset-game {
-    background-color: rgba(98, 227, 116, 0.89);
-    border-radius: 10%;
-    border: 0;
-    color: rgb(80, 80, 80);
-    font-size: 1.3vw;
-    font-weight: bold;
-    padding: 1vw;
+  background-color: rgba(98, 227, 116, 0.89);
+  border: 0;
+  border-radius: 10%;
+  color: rgb(80, 80, 80);
+  font-size: 1.3vw;
+  font-weight: 700;
+  padding: 1vw;
 }
