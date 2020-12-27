@@ -36,10 +36,10 @@ const scoreCalculator = () => {
 // Acertou ou errou a cor
 function check(event) {
   if (event.target.style.backgroundColor === rgbColorRight) {
-    answer.innerHTML = 'Acertou!';
+    answer.innerHTML = 'Right!';
     scoreCalculator();
   } else {
-    answer.innerHTML = 'Errou! Tente novamente!';
+    answer.innerHTML = 'Wrong, try again!';
     scoreCalculator();
   }
 }
@@ -83,6 +83,6 @@ resetButton.addEventListener('click', function () {
   rgbTitle.innerHTML = `(${r}, ${g}, ${b})`;
   color();
   colorRight();
-  answer.innerHTML = 'Escolha uma cor"';
+  answer.innerHTML = 'Choose a color';
   correctAnswer = 0;
 });
