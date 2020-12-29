@@ -21,7 +21,7 @@ let points = 0;
 let correctAnswer = 0;
 const answer = document.getElementById('answer');
 const scoreCalculator = () => {
-  if (answer.innerHTML === 'Acertou!') {
+  if (answer.innerHTML === 'Right!') {
     if (correctAnswer === 0) {
       points += 3;
       correctAnswer += 1;
